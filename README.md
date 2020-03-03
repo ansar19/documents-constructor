@@ -1,29 +1,8 @@
 # Typing Monkey
 
-> A collection of templates for annoying documents.
-
-Online: https://typing-monkey.com
-
-News: https://experimentslabs.com/projects/typing-monkey
-
-## Contribute
-
-### Code
-
-Fork. Code. Commit. Merge request.
-
-You're welcome !
+> A collection of templates for HSE documents.
 
 ### Writing templates
-
-For now, there is now online interface to create and update a template,
-you have to fork this project and make merge requests.
-
-Templates are markdown files processed and rendered in both Markdown and
-HTML.
-
-The documentation about formatting your template, create dynamic blocks 
-and use variables is available [online](https://typing-monkey.com/#/help).
 
 To create a template, create a file somewhere in `public/templates` and 
 add an entry in `src/templates.json`. You may specify a license, a 
