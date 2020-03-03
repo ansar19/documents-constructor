@@ -42,12 +42,12 @@
         <span class="d-none d-md-inline-block">Екатерина Васильева</span>
       </a>
       <d-collapse id="user-actions" class="dropdown-menu dropdown-menu-small">
-        <d-dropdown-item>
+        <!-- <d-dropdown-item>
           <i class="material-icons">&#xE7FD;</i>
           <router-link to="user-profile-lite">
             Профиль
           </router-link>
-        </d-dropdown-item>
+        </d-dropdown-item> -->
       </d-collapse>
     </li>
   </d-navbar-nav>
