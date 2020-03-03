@@ -1,0 +1,43 @@
+$logo-size-navbar: 2rem;
+
+.logo {
+  &_background {
+    fill: transparent;
+  }
+
+  &_computer,
+  &_monkey,
+  &_interrogation {
+    fill: whitesmoke;
+  }
+
+  &_interrogation {
+    display: none;
+  }
+
+  &--navbar {
+    vertical-align: middle;
+    height: $logo-size-navbar;
+    width: $logo-size-navbar;
+  }
+
+  &--home {
+    width: 100%;
+    height: auto;
+
+    .logo_computer,
+    .logo_monkey {
+      fill: #eee;
+    }
+  }
+
+  &--404 {
+    .logo_interrogation {
+      display: block;
+    }
+
+    .logo_computer {
+      display: none;
+    }
+  }
+}

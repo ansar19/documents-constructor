@@ -1,0 +1,19 @@
+dl.infos {
+  margin: 0;
+
+  &--inline {
+    dt {
+      margin-right: 0.5rem;
+    }
+
+    dd {
+      margin: 0;
+    }
+
+    dt,
+    dd {
+      display: inline-block;
+      padding: 0;
+    }
+  }
+}

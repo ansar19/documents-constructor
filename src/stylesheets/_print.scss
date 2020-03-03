@@ -1,0 +1,8 @@
+@media print {
+  .navbar.app__nav,
+  .button-group,
+  .layout-aside.render-page__aside,
+  footer.app__footer {
+    display: none !important; /* stylelint-disable-line declaration-no-important */
+  }
+}

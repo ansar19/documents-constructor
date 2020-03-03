@@ -1,0 +1,56 @@
+{
+  "404": {
+    "title": "404 - Page not found"
+  },
+  "about": {
+    "contribute_content": "You can contribute to the code or the templates by forking the above repository and create merge requests.",
+    "contribute_header": "Contribute!",
+    "licenses_content": "This service uses opensource software with their own licenses:",
+    "licenses_content_other": "And others...",
+    "licenses_header": "Licenses",
+    "logo_derivative": "The logo is derived from {0}, which is in public domain.",
+    "privacy_content": "We don't use cookies. We don't store anything you type in the document creator. We don't store anything on your computer.",
+    "privacy_header": "Privacy",
+    "source_availability": "Code is available under the MIT license on {0}. Templates are available on the same repository too, under their respective license.",
+    "title": "About",
+    "tos_content": "TL;DR, you can use the service to generate your annoying documents.",
+    "tos_header": "Terms of service"
+  },
+  "app": {
+    "about": "About",
+    "by_elabs": "An {0} project.",
+    "help_on_templates": "Help on templates",
+    "news": "News",
+    "propose": "Propose your templates on Gitlab!",
+    "site_under_construction": "This site is young and under active development. New content is welcome, as are the issues. Thank you."
+  },
+  "home": {
+    "site_description": "A collection of templates for annoying documents.",
+    "title": "Available templates"
+  },
+  "locales": {
+    "en": "English",
+    "fr": "Français",
+    "ru": "Русский"
+  },
+  "renderer": {
+    "buttons": {
+      "render": "Render",
+      "source": "Source"
+    },
+    "help": {
+      "line1": "Fill the variables, check the desired",
+      "line2": "sections and copy the final content !"
+    },
+    "description": "Description:",
+    "name": "Name:",
+    "sections": "Sections",
+    "variables": "Variables"
+  },
+  "template_list": {
+    "item": {
+      "language": "Language:"
+    },
+    "unlocalized": "Misc."
+  }
+}

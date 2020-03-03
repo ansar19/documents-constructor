@@ -1,0 +1,6 @@
+// Used in aside of the renderer to display sections
+.block {
+  > .block {
+    margin-left: 1em;
+  }
+}

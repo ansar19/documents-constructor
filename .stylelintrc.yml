@@ -1,0 +1,28 @@
+---
+plugins:
+  - stylelint-scss
+extends:
+  - stylelint-config-standard
+  - stylelint-config-recommended-scss
+ignoreFiles: []
+rules:
+  declaration-no-important: true
+  font-family-name-quotes: always-unless-keyword
+  selector-class-pattern:
+    - '^[a-z0-9]+(?:(-{1,2}|_{1,2})[a-z0-9]+)*$'
+    - resolveNestedSelectors: true
+  selector-id-pattern: '^[a-z]+(?:-[a-z]*)*$'
+  selector-list-comma-newline-after: always
+  selector-list-comma-newline-before: never-multi-line
+  selector-list-comma-space-after: always-single-line
+  selector-list-comma-space-before: never
+  selector-max-id: 1
+  scss/double-slash-comment-empty-line-before:
+    - always
+    - ignore:
+        - between-comments
+        - stylelint-commands
+  scss/double-slash-comment-inline: never
+  scss/double-slash-comment-whitespace-inside: always
+  scss/media-feature-value-dollar-variable: always
+  scss/no-duplicate-dollar-variables: true

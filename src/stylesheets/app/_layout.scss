@@ -1,0 +1,18 @@
+#app {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.app {
+  &__main-layout {
+    display: flex;
+    min-height: calc(100vh - 8rem);
+    background-color: #fff;
+  }
+
+  &__footer {
+    background: #f8f9fa;
+    height: 4rem;
+  }
+}

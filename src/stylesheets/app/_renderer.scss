@@ -1,0 +1,23 @@
+.render-page {
+  &__content {
+    padding-top: 1rem;
+  }
+
+  &__raw pre {
+    font-size: 0.8em;
+    background: #ccc;
+    padding: 1rem;
+  }
+
+  &__render {
+    box-shadow: 0 0 6px 0 rgba(#333, 0.3);
+    padding: 1rem;
+  }
+
+  &__aside {
+    width: 20rem !important; /* stylelint-disable-line declaration-no-important */
+    background-color: #ececec !important; /* stylelint-disable-line declaration-no-important */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}

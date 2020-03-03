@@ -1,0 +1,63 @@
+$code-block-color: #796036;
+$code-var-color: #594f79;
+$code-condition-color: #407935;
+$code-number-color: #436fce;
+$code-shortcode-color: #ce485b;
+
+.code {
+  &-content {
+    color: lighten(#333, 40%);
+  }
+
+  &-block {
+    color: $code-block-color;
+
+    &-name {
+      color: lighten($code-block-color, 20%);
+    }
+
+    &-description {
+      color: lighten($code-block-color, 40%);
+    }
+  }
+
+  &-var {
+    color: $code-var-color;
+
+    &-name {
+      color: lighten($code-var-color, 20%);
+    }
+
+    &-description {
+      color: lighten($code-var-color, 40%);
+    }
+
+    &type {
+      color: $code-var-color;
+    }
+  }
+
+  &-condition {
+    color: $code-condition-color;
+
+    &-type {
+      color: lighten($code-condition-color, 20%);
+    }
+
+    &-block {
+      color: lighten($code-condition-color, 40%);
+    }
+  }
+
+  &-number {
+    color: $code-number-color;
+  }
+
+  &-shortcode {
+    color: $code-shortcode-color;
+
+    &-name {
+      color: lighten($code-shortcode-color, 30%);
+    }
+  }
+}

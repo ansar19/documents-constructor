@@ -1,0 +1,53 @@
+---
+image: node
+
+stages:
+  - dependencies
+  - test
+  - build
+
+cache:
+  untracked: true
+  paths:
+    - 'node_modules/'
+
+dependencies/yarn:
+  stage: dependencies
+  script: yarn install
+
+test/lint:
+  stage: test
+  dependencies:
+    - dependencies/yarn
+  script:
+    - yarn lint
+
+test/lint:style:
+  stage: test
+  dependencies:
+    - dependencies/yarn
+  script:
+    - yarn lint:style
+
+
+test/unit:
+  stage: test
+  dependencies:
+    - dependencies/yarn
+  script:
+    - yarn test:unit
+
+build/build:
+  artifacts:
+    untracked: true
+    expire_in: 1 hour
+    paths:
+      - 'dist/'
+  stage: build
+  script:
+    - sed -i -e "s/CI_COMMIT_SHA/${CI_COMMIT_SHA}/" src/App.vue
+    - sed -i -e "s/CI_COMMIT_SHORT_SHA/${CI_COMMIT_SHORT_SHA}/" src/App.vue
+    - yarn build
+    - rm -rf node_modules
+#  only:
+#    - master

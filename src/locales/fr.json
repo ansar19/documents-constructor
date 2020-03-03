@@ -1,0 +1,56 @@
+{
+  "404": {
+    "title": "404 - Page non trouvée"
+  },
+  "about": {
+    "contribute_content": "Vous pouvez contribuer au code ou aux modèles en forkant le dépot ci-dessus et en créant des merge requests.",
+    "contribute_header": "Contribuez !",
+    "licenses_content": "Ce service utilise des logiciels opensources ayant leur propre licence :",
+    "licenses_content_other": "Et bien d'autres...",
+    "licenses_header": "Licences",
+    "logo_derivative": "Le logo est dérivé de {0}, qui appartient au domaine public.",
+    "privacy_content": "Nous n'utilisons pas de cookies. Nous ne sauvegardons pas ce que vous tapez. Nous ne stockons rien sur votre ordinateur.",
+    "privacy_header": "Vie privée",
+    "source_availability": "Le code est disponible sous license MIT sur {0}. Les modèles sont disponibles dans le même dépot, sous leur license respective",
+    "title": "À propos",
+    "tos_content": "Pour faire court, vous pouvez utiliser ce service pour générer vos documents ennuyeux.",
+    "tos_header": "Conditions d'utilisation"
+  },
+  "app": {
+    "about": "À propos",
+    "by_elabs": "Un projet {0}.",
+    "help_on_templates": "Aide pour les modèles",
+    "news": "Dernières infos",
+    "propose": "Proposez vos modèles sur Gitlab!",
+    "site_under_construction": "Ce site est jeune est en pleine contruction. Les propositions d'améliorations et de nouveau contenu sont les bienvenues. Merci d'avance !"
+  },
+  "home": {
+    "site_description": "Une collection de modèles pour documents ennuyeux.",
+    "title": "Modèles disponibles"
+  },
+  "locales": {
+    "en": "English",
+    "fr": "Français",
+    "ru": "Русский"
+  },
+  "renderer": {
+    "buttons": {
+      "render": "Rendu",
+      "source": "Source"
+    },
+    "description": "Description:",
+    "help": {
+      "line1": "Remplissez les variables, cochez les",
+      "line2": "sections et copiez le contenu final !"
+    },
+    "name": "Nom:",
+    "sections": "Sections",
+    "variables": "Variables"
+  },
+  "template_list": {
+    "item": {
+      "language": "Langue:"
+    },
+    "unlocalized": "Autres"
+  }
+}

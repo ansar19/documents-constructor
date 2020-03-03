@@ -1,0 +1,119 @@
+.meta code,
+.meta h2 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  letter-spacing: 0.05px;
+}
+
+.meta .subcomponent-title {
+  font-family: Roboto Mono, monospace;
+  font-size: 21px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+.meta-table {
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.03);
+  font-size: 13px;
+}
+
+.meta-table thead {
+  background: #f5f8fa;
+  color: #586e8d;
+}
+
+.meta-table td,
+.meta-table th {
+  padding: 10px 15px;
+}
+
+.meta-table tr {
+  border-radius: 10px;
+  border: 1px solid #d4dadf;
+}
+
+@media (max-width: 780px) {
+  .meta-table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+    background: transparent;
+    box-shadow: none;
+  }
+
+  .meta-table caption {
+    font-size: 1.5em;
+    margin: 0.5em 0 0.75em;
+  }
+
+  .meta-table tr {
+    padding: 0.35em;
+    background: #fff;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.03);
+  }
+
+  .meta-table td,
+  .meta-table th {
+    padding: 0.625em;
+    text-align: right !important;
+  }
+
+  .meta-table th {
+    font-size: 0.85em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .meta-table {
+    border: 0;
+  }
+
+  .meta-table caption {
+    font-size: 1.3em;
+  }
+
+  .meta-table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .meta-table tr {
+    display: block;
+    margin-bottom: 0.625em;
+  }
+
+  .meta-table td {
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  .meta-table td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .meta-table td:last-child {
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 1160px) {
+  .btn {
+    margin-bottom: 10px !important;
+  }
+}
