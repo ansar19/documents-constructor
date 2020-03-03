@@ -9,7 +9,12 @@
             {{ $t('home.site_description') }}
           </h1>
         </d-row>
-        <small>{{ $t('app.site_under_construction') }}</small>
+        <d-card style="max-width: 300px" class="mb-2">
+          <d-card-header>Краткая инструкция:</d-card-header>
+          <d-card-body>
+            <p>{{ $t('app.site_under_construction') }}</p>
+          </d-card-body>
+        </d-card>
         <!-- <logo variant="home" /> -->
       </d-col>
       <d-col lg="8">
