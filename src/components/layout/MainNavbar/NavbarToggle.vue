@@ -1,5 +1,5 @@
 <template>
-  <nav class="nav">
+  <nav class="nav mr-3">
     <a
       href="#"
       class="nav-link nav-link-icon toggle-sidebar d-md-inline d-lg-none text-center"
