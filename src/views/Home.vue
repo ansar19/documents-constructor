@@ -9,10 +9,18 @@
             {{ $t('home.site_description') }}
           </h1>
         </d-row>
-        <d-card style="max-width: 300px" class="mb-2">
-          <d-card-header>Краткая инструкция:</d-card-header>
+        <d-card class="mb-2">
+          <d-card-header class="border-bottom">
+            Краткая инструкция:
+          </d-card-header>
           <d-card-body>
-            <p>{{ $t('app.site_under_construction') }}</p>
+            <div v-for="item in $t('app.site_under_construction')" :key="item.id">
+              <i class="material-icons text-success">
+                done
+              </i> {{ item.text }}
+            </div>
+
+            <!-- <p>{{ $t('app.site_under_construction') }}</p> -->
           </d-card-body>
         </d-card>
         <!-- <logo variant="home" /> -->
@@ -28,11 +36,11 @@
 </template>
 
 <script>
-import Logo from '../components/Logo'
+// import Logo from '../components/Logo'
 import TemplateList from '../components/TemplateList'
 
 export default {
   name: 'Home',
-  components: { TemplateList, Logo },
+  components: { TemplateList },
 }
 </script>
