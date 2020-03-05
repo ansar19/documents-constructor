@@ -22,7 +22,13 @@
     "help_on_templates": "Help on templates",
     "news": "News",
     "propose": "Propose your templates on Gitlab!",
-    "site_under_construction": "This site is young and under active development. New content is welcome, as are the issues. Thank you."
+    "site_under_construction": [
+      {"text": "1. Choose template."},
+      {"text": "2. Fill the necessary fields."},
+      {"text": "3. Check the rendered document."},
+      {"text": "4. Download result in .doc (MS Word)"},
+      {"text": "5. Be creative and customize as you wish."}
+    ]
   },
   "home": {
     "site_description": "A collection of templates for annoying documents.",
