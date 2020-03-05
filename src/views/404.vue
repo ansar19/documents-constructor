@@ -6,8 +6,10 @@
         <h1>{{ $t('404.title') }}</h1>
         <!-- <h3>Something went wrong!</h3>
         <p>There was a problem on our end. Please try again later.</p> -->
-        <d-button pill @click="goBack">
-          &larr; Вернутся назад
+        <d-button pill>
+          <d-link class="nav-link text-white" to="/">
+            &larr; Вернутся назад
+          </d-link>
         </d-button>
       </div>
     </div>

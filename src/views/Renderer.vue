@@ -83,8 +83,8 @@
             </d-button-toolbar>
             <div class="render-page__main-content mb-2"
                  :class="displayTab === 'render' ? 'render-page__render' : 'render-page__raw'">
-              <pre v-show="displayTab === 'source'">{{ source }}</pre>
-              <pre v-if="ready" v-show="displayTab === 'md'">{{ renderedMd }}</pre>
+              <!-- <pre v-show="displayTab === 'source'">{{ source }}</pre>
+              <pre v-if="ready" v-show="displayTab === 'md'">{{ renderedMd }}</pre> -->
               <pre v-if="ready" v-show="displayTab === 'html'">{{ renderedText }}</pre>
               <!-- eslint-disable vue/no-v-html -->
               <div v-if="ready" v-show="displayTab === 'render'" id="exportContent" v-html="renderedText" />

@@ -2,13 +2,13 @@
   <footer class="main-footer d-flex p-2 px-3 bg-white border-top">
     <div :class="[contained ? 'container' : 'container-fluid']">
       <div class="row">
-        <ul class="nav">
-          <li v-for="(item, idx) in menuItems" :key="idx" class="nav-item">
-            <d-link class="nav-link" :to="item.to">
-              {{ item.title }}
+        <d-nav>
+          <d-nav-item>
+            <d-link to="/about">
+              Про нас
             </d-link>
-          </li>
-        </ul>
+          </d-nav-item>
+        </d-nav>
         <span class="copyright ml-auto my-auto mr-2">{{ copyright }} <a href="https://ecomarine.kz" target="_blank">EcoMarine.kz</a></span>
       </div>
     </div>
