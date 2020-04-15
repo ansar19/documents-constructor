@@ -59,11 +59,11 @@
           <d-container fluid>
             <d-button-toolbar class="mb-2 mt-2">
               <d-button-group size="small" class="mr-3">
-                <d-button :active="displayTab === 'render'"
+                <!-- <d-button :active="displayTab === 'render'"
                           :variant="displayTab === 'render' ? 'primary' : ''"
                           @click.prevent="displayTab = 'render'">
                   {{ $t('renderer.buttons.render') }}
-                </d-button>
+                </d-button> -->
                 <!-- <d-button :active="displayTab === 'html'"
                           :variant="displayTab === 'html' ? 'primary' : ''"
                           @click.prevent="displayTab = 'html'">
